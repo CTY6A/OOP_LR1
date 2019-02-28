@@ -1,0 +1,5 @@
+[ElectronicsCatalog|+QuantityOfGoods: int|-AddItem(): void;-SortingGoods(): void]+[CellPhones|+SupportedFrequencies: double;+Camera: boolean|-Choose(): void;-Buy(): void]
+[ElectronicsCatalog]+[Computers|+Portable: boolean;+ScreenDiagonal: double|-Choose(): void;-Buy(): void]
+[CellPhones]^-[WithoutTouchScreen|+Screen: boolean;+NumOfButton: int|-Choose(): void;-Buy(): void]
+[CellPhones]^-[WithTouchScreen|+MultiTouch: int;+ScratchProtection: boolean|-Choose(): void;-Buy(): void]
+[WithTouchScreen]^-[Smartphones|+NumOfFunctions: int|-Choose(): void;-Buy(): void]
